@@ -8,11 +8,11 @@
     ],
     "TaskSettings": {
         "archive-zip": {
-            "include-top-level-dir": "windows darwin linux",
-            "platforms": "windows darwin linux"
+            "include-top-level-dir": "darwin linux",
+            "platforms": "darwin linux"
         }
     },
     "Arch": "386 amd64",
-    "Os": "linux darwin windows",
+    "Os": "linux darwin",
     "ConfigVersion": "0.9"
 }
