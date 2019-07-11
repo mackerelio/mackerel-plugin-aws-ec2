@@ -6,7 +6,7 @@ setup:
 	go get \
 		github.com/laher/goxc \
 		github.com/tcnksm/ghr \
-		github.com/golang/lint/golint
+		golang.org/x/lint/golint
 
 .PHONY: test
 test: setup
