@@ -1,12 +1,6 @@
-export GO111MODULE=on
-
 .PHONY: setup
 setup:
-	GO111MODULE=off \
-	go get \
-		github.com/laher/goxc \
-		github.com/tcnksm/ghr \
-		golang.org/x/lint/golint
+	go install golang.org/x/lint/golint@latest
 
 .PHONY: test
 test: setup
