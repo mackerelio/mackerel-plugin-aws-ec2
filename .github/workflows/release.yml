@@ -7,6 +7,5 @@ on:
 
 jobs:
   release:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: mackerelio/workflows/.github/workflows/goreleaser.yml@main
+    uses: mackerelio/workflows/.github/workflows/goreleaser.yml@main
+
