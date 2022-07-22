@@ -6,7 +6,5 @@
 
 set -e
 latest_tag=$(git describe --abbrev=0 --tags)
-echo $latest_tag
-goxc --version
-
-ghr --version
+goxc
+ghr -u mackerelio -r mackerel-plugin-aws-ec2 $latest_tag dist/snapshot/
