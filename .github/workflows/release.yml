@@ -1,0 +1,12 @@
+name: release
+
+on:
+  push:
+    tags:
+      - "v*"
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: mackerelio/workflows/.github/workflows/goreleaser.yml@main
